@@ -1,0 +1,67 @@
+window {
+  margin: 0px;
+  border: 2px solid #414868;
+  border-radius: 5px;
+  background-color: rgba(36,40,59,0.7);
+  font-family: monospace;
+  font-size: 12px;
+}
+
+#input {
+  margin: 5px;
+  border: 1px solid #24283b;
+  color: #c0caf5;
+  background-color: #24283b;
+}
+
+#input image {
+  margin-right: 0.5em;
+  color: #c0caf5;
+}
+
+#inner-box {
+  margin: 5px;
+  border: none;
+  background-color: #24283b;
+}
+
+#outer-box {
+  margin: 5px;
+  border: none;
+  background-color: #24283b;
+}
+
+#scroll {
+  margin: 0px;
+  border: none;
+}
+
+#text {
+  margin: 5px;
+  border: none;
+  color: #c0caf5;
+}
+
+#entry {
+  margin: 5px;
+  padding: 5px;
+  border: none;
+}
+
+#entry image {
+  margin-right: 0.75em;
+}
+
+#entry:selected {
+  background: rgb(41, 46, 66);
+  background: linear-gradient(342deg, rgba(41, 46, 66, 0.7) 0%, rgba(122, 162, 247, 0.7) 100%);
+  border-radius: 5px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+#text:selected {
+  border-radius: 5px;
+  font-weight: normal;
+  color: #ffffff;
+}

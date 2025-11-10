@@ -1,0 +1,12 @@
+/* Text under the icons */
+label {
+    color: #8f82f9;             /* text color */
+    font-size: 16pt;            /* text size */
+    margin-top: 100px;          /* push text below icon */
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+/* Give buttons space for text */
+button {
+    padding-bottom: 60px;
+}

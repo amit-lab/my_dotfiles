@@ -1,0 +1,55 @@
+window {
+    font-family: "FiraCode Nerd Font Mono Med", monospace;
+    font-size: 14pt;
+    color: #cdd6f4; /* text */
+    background-color: rgba(30, 30, 46, 0.6);
+}
+
+button {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    border: none;
+    border-radius: 24px;          /* <- rounded corners */
+    margin: 10px;
+    background-color: rgba(36, 40, 59, 0.5);
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: rgba(50, 54, 74, 0.7);
+}
+
+button:focus {
+    background-color: rgba(51, 204, 255, 0.8);
+    color: #1e1e2e;
+}
+
+/* Icons (use your existing PNGs) */
+#lock      { background-image: image(url("./icons/lock.png")); }
+#lock:focus { background-image: image(url("./icons/lock-hover.png")); }
+
+#logout      { background-image: image(url("./icons/logout.png")); }
+#logout:focus { background-image: image(url("./icons/logout-hover.png")); }
+
+#suspend      { background-image: image(url("./icons/sleep.png")); }
+#suspend:focus { background-image: image(url("./icons/sleep-hover.png")); }
+
+#shutdown      { background-image: image(url("./icons/power.png")); }
+#shutdown:focus { background-image: image(url("./icons/power-hover.png")); }
+
+#reboot      { background-image: image(url("./icons/restart.png")); }
+#reboot:focus { background-image: image(url("./icons/restart-hover.png")); }
+
+/* Text under the icons */
+label {
+    color: #8f82f9;             /* text color */
+    font-size: 16pt;            /* text size */
+    margin-top: 100px;          /* push text below icon */
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+/* Give buttons space for text */
+button {
+    padding-bottom: 60px;
+}

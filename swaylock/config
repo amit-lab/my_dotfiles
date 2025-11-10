@@ -1,0 +1,23 @@
+# ~/.config/swaylock/config
+
+# Background color (fallback)
+color=000000
+
+# Optional: blur your current wallpaper background (if using swaylock-effects)
+effect-blur=7x5
+
+# Optional: dim the background a bit
+fade-in=0.2
+screenshots
+clock
+indicator
+indicator-radius=120
+indicator-thickness=12
+ignore-empty-password
+show-failed-attempts
+font=JetBrainsMono Nerd Font
+inside-color=00000088
+ring-color=88c0d0
+line-color=00000000
+text-color=eceff4
+
