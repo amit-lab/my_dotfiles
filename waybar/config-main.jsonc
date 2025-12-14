@@ -15,8 +15,8 @@
         "pulseaudio",
         "network",
         "cpu",
-        "custom/cpu_temp",
-        "custom/gpu_temp",
+        // "custom/cpu_temp",
+        // "custom/gpu_temp",
         "custom/vram_usage",
         "memory",
         // "battery",
@@ -81,7 +81,7 @@
     "custom/vram_usage": {
         "exec": "~/.config/waybar/scripts/vram_usage.sh",
         "interval": 5,
-        "format": "  {}",
+        "format": "   {} ",
         "tooltip": false
     },
     "network#speed": {

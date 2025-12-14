@@ -13,7 +13,7 @@ if [[ -x "$ROCM_SMI" ]]; then
         percent=$((100 * used / total))
         used_gb=$(awk "BEGIN {printf \"%.1f\", $used/1073741824}")
         total_gb=$(awk "BEGIN {printf \"%.0f\", $total/1073741824}")
-        echo "${used_gb}G (${percent}%)"
+        echo "${percent}%"
     else
         echo ""
     fi

@@ -33,11 +33,11 @@ get_battery_percentage() {
 # Define icons for specific devices (MAC addresses)
 declare -A device_icons
 device_icons=(
-    ["2C:BE:EB:45:7E:32"]="🎧" # Headset
-    ["XX:XX:XX:XX:XX:02"]="🎤" # Microphone
-    ["XX:XX:XX:XX:XX:03"]="🎵" # Speaker
-    ["D2:B8:F5:32:9D:E1"]="🖱" # Mouse
-    ["XX:XX:XX:XX:XX:05"]="⌨" # Keyboard
+    ["2C:BE:EB:45:7E:32"]="🎧"    # Headset
+    ["XX:XX:XX:XX:XX:02"]="🎤"    # Microphone
+    ["XX:XX:XX:XX:XX:03"]="🎵"    # Speaker
+    ["D2:B8:F5:32:9D:E6"]=" 󰍽 "  # Mouse
+    ["D0:9E:78:FB:EC:5E"]="   " # Keyboard
 )
 
 # Loop through connected devices

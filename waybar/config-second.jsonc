@@ -10,7 +10,7 @@
     // "modules-center": ["custom/spotify"],
     "modules-right": [
         "network#speed",
-        // "custom/upower-bluetooth",
+        "custom/upower-bluetooth",
         // "backlight",
         "pulseaudio",
         // "network",
