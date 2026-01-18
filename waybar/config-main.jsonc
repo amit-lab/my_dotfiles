@@ -23,8 +23,20 @@
         "tray",
         "clock",
         "custom/clipboard",
+        "power-profiles-daemon",
         "custom/power-menu"
     ],
+    "power-profiles-daemon": {
+      "format": "{icon}",
+      "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+      "tooltip": true,
+      "format-icons": {
+        "default": "",
+        "performance": "",
+        "balanced": "",
+        "power-saver": ""
+      }
+    },
     "hyprland/workspaces": {
       "format": "{icon}",
       "disable-scroll": false,
@@ -125,18 +137,20 @@
     },
 
     "pulseaudio": {
-        "format": "<span font_size='larger'>{icon}</span> {volume}%",
-        "ignored-sinks": ["JamesDSP Sink"],
-        "format-bluetooth": "  {volume}%",
-        "format-bluetooth-muted": " ",
-        "format-muted": "婢",
+        "format": "{volume}% {icon} {format_source}",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": " {format_source}",
+        "format-source": " {volume}% ",
+        "format-source-muted": "",
         "format-icons": {
-            "headphone": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["", "", ""]
+            "headphone": "  ",
+            "hands-free": "  ",
+            "headset": "  ",
+            "phone": "  ",
+            "portable": "  ",
+            "car": "  ",
+            "default": ["  ", "  ", "  "]
         },
         "on-click": "pavucontrol"
     },

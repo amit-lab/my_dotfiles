@@ -87,6 +87,7 @@ window#waybar.hidden {
 #bluetooth,
 #custom-upower-bluetooth
 #custom-cpu_temp,
+#power-profiles-daemon,
 #custom-gpu_temp,
 #custom-vram_usage,
 #custom-clipboard,
@@ -155,6 +156,15 @@ window#waybar.hidden {
 
 
 #custom-cpu_temp {
+  background-color: rgba(36, 40, 59, 0.8);
+  color: #9ece6a;
+  border-radius: 16px;
+  background-color: rgba(36, 40, 59, 0.8);
+  border-radius: 16px;
+  padding: 0 5px;
+}
+
+#power-profiles-daemon {
   background-color: rgba(36, 40, 59, 0.8);
   color: #9ece6a;
   border-radius: 16px;
