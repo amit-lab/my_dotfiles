@@ -7,12 +7,16 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "vim_mode": true,
+  "fast_scroll_sensitivity": 8.0,
+  "scroll_sensitivity": 3.0,
+  "horizontal_scroll_margin": 5.0,
+  "icon_theme": "Material Icon Theme",
+  "vim_mode": false,
   "ui_font_size": 16,
   "buffer_font_size": 15,
   "theme": {
     "mode": "system",
     "light": "Ayu Light",
-    "dark": "Ayu Dark"
+    "dark": "Catppuccin Espresso (Blur) [Light]"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "custom/upower_bluetooth": {
+    "exec": "/bin/bash ~/.config/waybar/scripts/bluetooth_battery.sh",
+    "tooltip": true,
+    // "format": "  {}",
+    // "format-disable": "",
+    // "show-icon": false,
+    "interval": 30
+  }
+}
