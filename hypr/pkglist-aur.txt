@@ -1,0 +1,16 @@
+consolas-font
+gtk2
+hakuneko-desktop-nightly
+heroic-games-launcher
+logiops
+ncurses5-compat-libs
+noto-fonts-sc
+paru
+peaclock
+ttf-meslo-nerd-font-powerlevel10k
+ttf-ms-fonts
+uget-integrator
+uget-integrator-firefox
+wlogout
+yay
+yay-debug
