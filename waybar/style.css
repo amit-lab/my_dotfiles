@@ -17,11 +17,11 @@
 }
 
 #waybar {
-	background-color: @outline;
+	background-color: #000000 /*@outline*/;
 }
 #waybar > box {
 	margin: 4px;
-	background-color: @main-bg;
+	background-color: #000000 /* @main-bg */;
 }
 
 button {

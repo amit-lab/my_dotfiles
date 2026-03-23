@@ -54,10 +54,10 @@
     "custom/left_div#1",
     "hyprland/workspaces",
     "custom/right_div#1",
-    "custom/left_div#1",
-    "tray",
-    "custom/right_div#1",
-    "hyprland/window",
+    // "custom/left_div#1",
+    "tray"
+    // "custom/right_div#1",
+    // "hyprland/window"
   ],
   "modules-center": [
     // "hyprland/windowcount",
@@ -80,7 +80,7 @@
     "network",
     "bluetooth",
     // "custom/system_update",
-    "custom/right_div#5",
+    "custom/right_div#5"
   ],
   "modules-right": [
     "mpris",
@@ -97,7 +97,7 @@
     "custom/left_div#8",
     // "network#speed",
     "custom/left_inv#2",
-    "custom/power_menu",
+    "custom/power_menu"
   ],
 
   /*-------------
@@ -128,7 +128,7 @@
   // "passthrough":
   // "ipc":
   // "id":
-  "reload_style_on_change": true,
+  "reload_style_on_change": true
   // "on-sigusr1":
   // "on-sigusr2":
 }
