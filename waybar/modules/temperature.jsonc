@@ -1,7 +1,8 @@
 {
 	"temperature": {
 		"thermal-zone": 1,
-		// "hwmon-path":
+		// "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+		"hwmon-path": "/sys/class/hwmon/hwmon1/temp1_input",
 		// "hwmon-path-abs":
 		// "input-filename":
 		// "warning-threshold":
@@ -31,5 +32,44 @@
 		// "menu-file":
 		// "menu-actions":
 		// "expand":
+	},
+
+	"temp_cpu": {
+		"module": "temperature",
+		"hwmon-path": "/sys/class/hwmon/hwmon3/temp1_input", // k10temp (CPU)
+		"critical-threshold": 90,
+		"interval": 10,
+		"format-critical": "󰀦 {temperatureC}°C",
+		"format": "{icon} {temperatureC}°C",
+		"format-icons": ["󱃃","󰔏","󱃂"],
+		"min-length": 8,
+		"max-length": 8,
+		"tooltip-format": "Fahrenheit: {temperatureF}°F"
+	},
+
+	"temp_gpu": {
+		"module": "temperature",
+		"hwmon-path": "/sys/class/hwmon/hwmon1/temp1_input", // amdgpu
+		"critical-threshold": 90,
+		"interval": 10,
+		"format-critical": "󰀦 {temperatureC}°C",
+		"format": "{icon} {temperatureC}°C",
+		"format-icons": ["󱃃","󰔏","󱃂"],
+		"min-length": 8,
+		"max-length": 8,
+		"tooltip-format": "Fahrenheit: {temperatureF}°F"
+	},
+
+	"temp_nvme": {
+		"module": "temperature",
+		"hwmon-path": "/sys/class/hwmon/hwmon0/temp1_input", // nvme
+		"critical-threshold": 90,
+		"interval": 10,
+		"format-critical": "󰀦 {temperatureC}°C",
+		"format": "{icon} {temperatureC}°C",
+		"format-icons": ["󱃃","󰔏","󱃂"],
+		"min-length": 8,
+		"max-length": 8,
+		"tooltip-format": "Fahrenheit: {temperatureF}°F"
 	}
 }

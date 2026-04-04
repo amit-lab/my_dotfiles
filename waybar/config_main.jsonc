@@ -63,6 +63,9 @@
     // "hyprland/windowcount",
     "custom/left_div#2",
     "temperature",
+    "temp_cpu",
+    "temp_gpu",
+    "temp_nvme",
     "custom/left_div#3",
     "memory",
     "custom/left_div#4",
@@ -83,7 +86,7 @@
     "custom/right_div#5"
   ],
   "modules-right": [
-    "mpris",
+    // "mpris",
     "custom/left_div#6",
     "network#speed",
     "custom/left_div#7",
